@@ -32,7 +32,7 @@ export default function Document() {
         </Script>
       </Head>
       <body>
-        <noscript
+        {/* <noscript
           dangerouslySetInnerHTML={{
             __html: (
               <iframe
@@ -43,7 +43,7 @@ export default function Document() {
               ></iframe>
             ),
           }}
-        ></noscript>
+        ></noscript> */}
         <Main />
         <NextScript />
       </body>
