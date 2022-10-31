@@ -25,7 +25,7 @@ const Home: NextPage = () => {
   };
   return (
     <div >
-        <div onClick={handleShareButton}>
+        <div id="triggerbutton" onClick={handleShareButton}>
             <button>CLICK ME</button>
         </div>
 
