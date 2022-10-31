@@ -25,7 +25,7 @@ const Home: NextPage = () => {
   };
   return (
     <div >
-            <button id="triggerBtn" >CLICK ME</button>
+            <button id="c" >CLICK ME</button>
     </div>
   )
 }
